@@ -1,0 +1,24 @@
+{   
+    "general": {
+        "token": "",
+        "userid": 6969696969696969,
+        "channelid": 69696969696969696
+    },
+
+    "cooldowns": {
+        "huntcooldown": 8.3,
+        "ballcooldown": 0.3
+    },
+
+    "rarities": {
+        "Common": "pb",
+        "Uncommon": "pb",
+        "Rare": "gb",
+        "Super Rare": "ub",
+        "Alolan": "mb",
+        "Cheap_legendary": "prb",
+        "Legendary": "mb",
+        "Shiny": "mb",
+        "Full-odds": "ub"
+    }
+}
