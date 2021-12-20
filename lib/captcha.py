@@ -8,4 +8,4 @@ async def anticaptcha(image):
     user_answer = ImageToTextTask.ImageToTextTask(anticaptcha_key = ANTICAPTCHA_KEY).\
         captcha_handler(captcha_link=image)
     
-    return user_answer['solution']['text'] + "0"
+    return user_answer['solution']['text']
