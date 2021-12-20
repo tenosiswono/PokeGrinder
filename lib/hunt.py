@@ -24,6 +24,9 @@ def hunt(footer, description):
                 else:
                     ball = conf.rarities.Legendary
             
+            elif rarity == "Full-odds":
+                ball = conf.rarities.FUll_odds
+            
             else:
                 ball = conf.rarities[str(rarity)]
             

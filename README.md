@@ -8,12 +8,16 @@ This bot can currently handle :
 - Stops if a captcha appears then continue after the captcha has been solved.
 - Logs elapsed time, encounters and catches.
 
+2. Captcha Solving
+- Solves captchas using AntiCaptcha API (more APIs will be added).
+- Notifies if unable to solve captcha.
+- If captcha solver disabled, will notify otherwise.
+- Captcha Solver and Notifier can both be toggles on/off.
+
 ## Upcoming Features
 1. Fishing
 2. Handling Eggs
 3. Auto-Buy Balls
-4. Captcha Notifier
-5. Captcha Solver
 
 ## Installating
 
