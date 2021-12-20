@@ -2,3 +2,4 @@ python3-anticaptcha
 discord.py-self
 datetime
 asyncio
+playsound
