@@ -1,5 +1,5 @@
 # PokeGrinder  🤖
-This is an Auto-Grinding bot made for Pokemeow. Efficient but not many features yet.
+This is an Auto-Grinding bot made for Pokemeow. Efficient with plenty of features and more to come.
 
 ## Supported features
 This bot can currently handle :
