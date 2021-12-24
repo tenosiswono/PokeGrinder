@@ -20,7 +20,8 @@ This bot can currently handle :
 
 4. Handling Eggs
 - Automatically hatches and holds eggs.
-- You must be holding an egg before you start grinding.
+- You must be holding an egg before you start grinding if you want the bot to handle eggs.
+- You can hold eggs between the grind and then the bot will handle the rest.
 
 ## Upcoming Features
 1. Fishing
