@@ -1,4 +1,5 @@
 from python3_anticaptcha import ImageToTextTask
+from lib.parser import conf
 
 async def anticaptcha(image):
     print("Solving captcha...")

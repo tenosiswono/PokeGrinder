@@ -1,23 +1,32 @@
 # PokeGrinder  🤖
-This is an Auto-Grinding bot made for Pokemeow. Efficient with plenty of features and more to come! 
+This is an Auto-Grinding bot made for Pokemeow. Efficient but not many features yet.
 
 ## Supported features
 This bot can currently handle :
 1. Hunting
 - Encounter then use a ball depending on the rarity of the Pokemon.
 - Stops if a captcha appears then continue after the captcha has been solved.
-- Logs elapsed time, encounters and catches.
+- Logs elapsed time, encounters, catches, captchas solved and eggs hatched.
 
 2. Captcha Solving
-- Solves captchas using AntiCaptcha API (more APIs will be added).
+- Solves captchas using AntiCaptcha API.
 - Notifies if unable to solve captcha.
 - If captcha solver disabled, will notify otherwise.
 - Captcha Solver and Notifier can both be toggles on/off.
 
+3. Auto-Buy Balls
+- Automatically buys balls when 0 are left.
+- Can buy custom amounts which can be specified in `config.json`.
+
+4. Handling Eggs
+- Automatically hatches and holds eggs.
+- You must be holding an egg before you start grinding.
+
 ## Upcoming Features
 1. Fishing
-2. Handling Eggs
-3. Auto-Buy Balls
+2. Auto Release Duplicates
+3. Log Pokecoins earned
+4. Suspicion Avoidance Features
 
 ## Installating
 

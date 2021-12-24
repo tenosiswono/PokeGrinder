@@ -1,21 +1,23 @@
 {   
     "general": {
         "token": "",
-        "userid": 696969699696969696,
-        "channelid": 696969696996969696,
+        "userid": 6969696969696969696,
+        "channelid": 696969696969969696,
         "anticaptcha_token": "",
-        "captcha_solver": "disable",
-        "captcha_notifier": "enable"
+        "captcha_solver": "false",
+        "captcha_notifier": "false",
+        "eggs": "enable",
+        "autobuy": "enable"
     },
 
     "cooldowns": {
         "huntcooldown": 8.3,
-        "ballcooldown": 0.3
+        "ballcooldown": 0.5
     },
 
     "rarities": {
-        "Common": "pb",
-        "Uncommon": "pb",
+        "Common": "gb",
+        "Uncommon": "gb",
         "Rare": "gb",
         "Super Rare": "ub",
         "Alolan": "mb",
@@ -23,5 +25,12 @@
         "Legendary": "mb",
         "Shiny": "mb",
         "Full_odds": "ub"
+    },
+
+    "autobuy": {
+        "pokeball": 1000,
+        "greatball": 500,
+        "ultraball": 100,
+        "masterball": 5
     }
 }
