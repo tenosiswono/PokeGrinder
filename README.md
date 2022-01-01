@@ -6,28 +6,32 @@ This bot can currently handle :
 1. Hunting
 - Encounter then use a ball depending on the rarity of the Pokemon.
 - Stops if a captcha appears then continue after the captcha has been solved.
-- Logs elapsed time, encounters, catches, captchas solved and eggs hatched.
+- Logs elapsed time, encounters, catches, fishes caught, captchas solved and eggs hatched.
 
-2. Captcha Solving
+2. Fishing
+- Sends ball according to the rarity of the fish!
+- Balls for each rarity can be specified in `config.json`.
+
+3. Captcha Solving
 - Solves captchas using AntiCaptcha API.
 - Notifies if unable to solve captcha.
 - If captcha solver disabled, will notify otherwise.
 - Captcha Solver and Notifier can both be toggles on/off.
 
-3. Auto-Buy Balls
+4. Auto-Buy Balls
 - Automatically buys balls when 0 are left.
 - Can buy custom amounts which can be specified in `config.json`.
+- If you don't want to autobuy a ball just set its amount to 0 in `config.json`.
 
-4. Handling Eggs
+5. Handling Eggs
 - Automatically hatches and holds eggs.
 - You must be holding an egg before you start grinding if you want the bot to handle eggs.
 - You can hold eggs between the grind and then the bot will handle the rest.
 
 ## Upcoming Features
-1. Fishing
-2. Auto Release Duplicates
-3. Log Pokecoins earned
-4. Suspicion Avoidance Features
+1. Auto Release Duplicates
+2. Log Pokecoins earned
+3. Suspicion Avoidance Features
 
 ## Installating
 
@@ -50,3 +54,5 @@ To stop the program simply close the command prompt.
 - We're of course not responsible for any ban you recieve for using this bot.
 - Please keep an eye on the bot to solve captchas. Do not be irresponsible if you don't want to get banned.
 - Please do not grind in public servers.
+- Hunting and Fishing must be done in seperate servers.
+- If you get "please wait" message while fishing, it is not because of this bot as the timers are fixed. This is a problem with Pokemeow itself. The bot will automatically send ";f" again if this comes.

@@ -16,7 +16,12 @@ async def get_balls(embed):
     
     if n > 3:
         return
+
+    num = conf.autobuy[str(balls[n][0])]
+
+    if num == 0:
+        return
     
-    msg = f";s b {(balls[n][1])} {conf.autobuy[str(balls[n][0])]}"
+    msg = f";s b {(balls[n][1])} {num}"
 
     return msg
