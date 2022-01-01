@@ -29,9 +29,10 @@ This bot can currently handle :
 - You can hold eggs between the grind and then the bot will handle the rest.
 
 ## Upcoming Features
-1. Auto Release Duplicates
-2. Log Pokecoins earned
-3. Suspicion Avoidance Features
+1. Auto Complete Checklist
+2. Auto Release Duplicates
+3. Log Pokecoins earned
+4. Suspicion Avoidance Features
 
 ## Installating
 
