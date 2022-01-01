@@ -2,7 +2,6 @@ import platform
 
 uname = platform.uname()
 print(f"System: {uname.system}")
-print(f"PokeSolver: Enabled")
 
 import pyfiglet
 
